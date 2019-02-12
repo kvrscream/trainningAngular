@@ -24,8 +24,14 @@
             ],
             "styles": [
               "src/styles.css"
+              
             ],
-            "scripts": []
+            "scripts": [
+              "src/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "src/jquery.easing.min.js",
+              "src/stylish-portfolio.min.js"
+            ]
           },
           "configurations": {
             "production": {

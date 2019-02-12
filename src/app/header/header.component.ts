@@ -8,8 +8,21 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
 
   constructor() { }
-
+  ativo = "";
   ngOnInit() {
+    
+  }
+
+  menu(){
+    if(this.ativo==""){
+      this.ativo = "active";
+    } else {
+      this.ativo = "";
+    }
+  }
+
+  roll(value: string){
+
   }
 
 }

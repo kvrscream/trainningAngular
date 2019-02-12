@@ -1,55 +1,38 @@
-<div class="wrapper-header">
-
-    <div class="row">
-    
-    <div class="col-xs-12 col-md-8">
-    
-    <ul class="menu-header">
-    
-    <li>Abra sua conta</li>
-    
-    <li>Investimentos</li>
-    
-    <li>Planos</li>
-    
+  <!-- Navigation -->
+  <a class="menu-toggle rounded" (click)="menu()">
+    <i class="fa fa-bars"></i>
+  </a>
+  <nav id="sidebar-wrapper" class="{{ativo}}" >
+    <ul class="sidebar-nav">
+      <li class="sidebar-brand">
+        <a class="js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#page-top">Home</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#about">About</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#services">Services</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#contact">Contact</a>
+      </li>
     </ul>
-    
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead d-flex">
+    <div class="container text-center my-auto">
+      <h1 class="mb-1">Stylish Portfolio</h1>
+      <h3 class="mb-5">
+        <em>A Free Bootstrap Theme by Start Bootstrap</em>
+      </h3>
+      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
     </div>
-    
-    <div class="col-xs-12 col-md-4">
-    
-    <form>
-    
-    <div class="form-row align-items-center">
-    
-    <div class="col-auto my-1">
-    
-    <div class="form-check">
-    
-    <label class="form-check-label" for="autoSizingCheck2">
-    
-    <b>Acesse</b> sua conta
-    
-    </label>
-    
-    <input type="text" class="form-control" id="inlineFormInputName" placeholder="Digite seu CPF">
-    
-    </div>
-    
-    </div>
-    
-    <div class="col-auto my-1">
-    
-    <button type="submit" class="btn btn-primary acessar-conta">Acessar</button>
-    
-    </div>
-    
-    </div>
-    
-    </form>
-    
-    </div>
-    
-    </div>
-    
-    </div>
+    <div class="overlay"></div>
+  </header>
